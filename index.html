@@ -10,14 +10,14 @@
 	<body>
 		<header>
 			<div class="logo"><h1>myLorem</h1></div>
-			<nav>
-				<ul>
-					<li class="active">Welcome</li>
-					<li>Dropdown</li>
-					<li>Left Sidebar</li>
-					<li>Right Sidebar</li>
-					<li>No Sidebar</li>
-				</ul>
+			<div class="toggle-menu" id="js-toggle-menu">Menu</div>
+			<nav class="menu" id="js-menu">
+				<a class="menu__item active" href="#">Welcome</a>
+				<a class="menu__item" href="#">Dropdown</a>
+				<a class="menu__item" href="#">Left Sidebar</a>
+				<a class="menu__item" href="#">Right Sidebar</a>
+				<a class="menu__item" href="#">No Sidebar</a>
+
 			</nav>
 		</header>
 		<div class="contenedor_botones">
@@ -132,9 +132,9 @@
 						<li>dolore magna aliqua</li>
 					</ul>
 				</div>
-
 			</div>
 			<p class="derechosReservados">© Untitled. All rights reserved</p>
 		</footer>
+		<script type="text/javascript" src="js/menu.js"></script>
 	</body>
 </html>
