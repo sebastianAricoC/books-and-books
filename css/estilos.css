@@ -1,0 +1,198 @@
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding: 0;
+
+}
+
+/****************fuentes e iconos***********************/
+
+@font-face {
+    font-family: 'Oleo Script';
+    src: url('../fonts/OleoScript-Regular.woff2') format('woff2'),
+        url('../fonts/OleoScript-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'fontawesome';
+    src: url('../fonts/fontawesome-webfont.woff') format('woff2'),
+        url('../fonts/fontawesome-webfont.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/OpenSans-Regular.woff2') format('woff2'),
+        url('../fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Open Sans-bold';
+    src: url('../fonts/OpenSans-Bold.woff2') format('woff2'),
+        url('../fonts/OpenSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/***********Estructura incial***********/
+
+
+body{
+	background: #d0d0d0;
+	font-family: 'Open Sans';
+}
+
+header{
+	width: 100%;
+	max-width: 900px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+
+header h1{
+	font-family: 'Oleo Script';
+	color:#E41B1B;
+	
+}
+
+header nav ul{
+	padding: 0;
+	list-style: none;
+	display: flex;
+}
+
+header nav ul li{
+	margin-left: 30px;
+	font-family: 'Open Sans';
+	font-weight: bold;
+	font-size: 0.89em;
+}
+
+.contenedor_botones{
+	width: 100%;
+	max-width: 900px;
+	background: #FFFFFF;
+	    margin: 35px auto;
+	    display: flex;
+	    justify-content:space-between;
+}
+
+.textoInicial{
+	width: 100%;
+	    max-width: 572px;
+	font-family: 'Open Sans';
+	    padding: 30px;
+}
+
+.textoInicial h1{
+	font-weight:bold;
+	font-family: 'Open Sans-bold';
+	color: #676767;
+}
+
+.textoInicial h3{
+	font-weight:100;
+	color: #676767;
+	    font-size: 1.5em;
+	
+}
+.botones{
+	display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content:space-evenly;
+    width: 100%;
+	max-width: 230px;
+
+}
+.btn{
+	    width: 100%;
+    background: #1591c4;
+    color: white;
+        display: flex;
+    justify-content: center;
+    padding: 13px;
+        align-items: center;
+}
+
+.btn h4{
+	font-family: 'Open Sans-bold';
+	font-size:1.5em;
+}
+
+.btn i{
+	    margin-left: 41px;
+    font-size: 1.5em;
+}
+
+.conenedor_imagenes{
+	width: 100%;
+	max-width: 900px;
+	margin:0 auto;
+	display: flex;
+}
+.caja_imagen{
+	    background: #fff;
+	        border-radius: 5px;
+	        position: relative;
+
+}
+
+.textoCaption{
+	    line-height: 27px;
+	        padding: 12px;
+}
+
+.caja_imagen img{
+	width: 100%;
+	max-width: 300px;
+	    height: 210px;
+	display: block;
+	object-fit: cover;
+	-webkit-border-top-left-radius: 5px;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+
+}
+
+.space{
+	    width: 65px;
+}
+
+.textoCaption h5{
+	color:  #4c4c4c;
+}
+
+.textoCaption p{
+	    padding-bottom: 20px;
+	    margin-top:10px;
+	    color: #928f8f;
+}
+
+
+.textoImagen{
+	        position: absolute;
+    top: 176px;
+    color: white;
+    font-weight: bold;
+    left: 10px;
+}
