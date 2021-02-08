@@ -251,17 +251,19 @@ color: #928f8f;
 .btn-continue h5{
 	font-size:1.2em;
 }
+/*************************FOOTER****************************************/
 
 .contenedor_cajasFooter{
 	    display: flex;
 	    justify-content: space-between;
     width: 100%;
     max-width: 900px;
-    margin: 26px auto;
+    margin: 41px auto;
 }
 .contenedor_cajasFooter .caja p{
 	color: #3e3e3e;
 	font-weight:bold;
+	    text-align: left;
 }
 
 .contenedor_cajasFooter .caja ul{
@@ -280,6 +282,7 @@ margin-top: 20px;
 	
 	 font-size: 2em;
 	 text-decoration: none;
+	 color: #616161;
 
 }
 
@@ -288,4 +291,12 @@ display: flex;
     justify-content: space-between;
     text-decoration: none;
     margin-bottom: 11px;
+}
+
+footer p.derechosReservados{
+	text-align: center;
+	color:#333333;
+	    margin: 50px auto;
+	    font-size: 0.8em;
+
 }
