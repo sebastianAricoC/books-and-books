@@ -259,6 +259,13 @@ color: #928f8f;
     padding: 10px;
     margin-top: 16px;
         border-radius: 4px;
+        cursor: pointer;
+}
+
+.btn-more:hover{
+	background: #f2f2f2;
+	color: #454344;
+	transition: 0.5s;
 }
 
 .btn-continue{
@@ -275,6 +282,13 @@ color: #928f8f;
     margin-top: 16px;
     border-radius: 4px;
     margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.btn-continue:hover{
+	background: #f2f2f2;
+	color: #454344;
+	transition: 0.5s;
 }
 
 .btn-continue i{
