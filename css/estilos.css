@@ -321,16 +321,19 @@ margin-top: 20px;
 .contenedor_cajasFooter .caja ul li{
 	font-size:0.8em;
 	text-decoration: underline;
+	line-height: 28px;
 }
 
 
 
 .redesSociales i{
 	
-	 font-size: 2em;
-	 text-decoration: none;
-	 color: #616161;
-
+	    font-size: 2.5em;
+    text-decoration: none;
+    color: #616161;
+    margin: 4px;
+    position: relative;
+    left: -5px;
 }
 
 .redesSociales{
