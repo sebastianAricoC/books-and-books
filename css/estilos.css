@@ -133,6 +133,13 @@ display: flex;
 justify-content: center;
 padding: 13px;
 align-items: center;
+cursor: pointer;
+}
+
+.btn:hover{
+	background: #f2f2f2;
+	color: #454344;
+	transition: 0.5s;
 }
 .btn h4{
 font-family: 'Open Sans-bold';
