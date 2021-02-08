@@ -41,6 +41,7 @@ font-display: swap;
 body{
 background: #d0d0d0;
 font-family: 'Open Sans';
+background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ),  url(../images/bg01.png) ;
 }
 
 
