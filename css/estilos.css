@@ -37,10 +37,14 @@ font-style: normal;
 font-display: swap;
 }
 /***********Estructura incial***********/
+
 body{
 background: #d0d0d0;
 font-family: 'Open Sans';
 }
+
+
+/**********************header y navegador*******************/
 header{
 width: 100%;
 max-width: 900px;
@@ -61,11 +65,33 @@ list-style: none;
 display: flex;
 }
 header nav ul li{
-margin-left: 30px;
-font-family: 'Open Sans';
-font-weight: bold;
-font-size: 0.89em;
+    margin-left: 15px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 0.85em;
+    padding: 10px;
+    cursor: pointer;
+
 }
+
+header nav ul li:hover{
+	background: #444444;
+	color: white;
+	    padding: 10px;
+	        border-radius: 5px;
+	        transition: 0.5s;
+}
+
+.active{
+	background: #444444;
+	color: white;
+	    padding: 10px;
+	        border-radius: 5px;
+
+}
+
+
+/**********************header y navegador*******************/
 .contenedor_botones{
 width: 100%;
 max-width: 900px;
