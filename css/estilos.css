@@ -425,12 +425,39 @@ footer p.derechosReservados{
 
 	.contenedor_botones{
 		margin:10px auto;
+		flex-direction: column;
+	}
+
+	.botones{
+		    margin: 35px auto;
+	}
+
+	.btn{
+		    margin-top: 20px;
 	}
 
 	.menu__item{
 		width: 100%;
 		max-width: 100%;
 	}
+
+	.conenedor_imagenes{
+		flex-direction:column;
+		    align-items: center;
+	}
+
+	.caja_imagen {
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 300px;
+    margin-top: 30px;
+}
 
 
 
